@@ -1,20 +1,76 @@
+html {
+    font-family: Trebuchet MS,sans-serif;
+    background-color: rgb(97, 157, 177);
+}
+
 @media only screen and (max-width: 600px) {
     body {
         background-color: lightblue;
     }
 }
 
+body {
+    text-align: center;
+}
+
 #welcome-section{
-    padding-top: 0px;
+    font-size: 20px;
+    text-align: center;
+    /* padding-top: 100px; */
     margin-top: 0px;
     display: block;
     height: 100vh;
 }
+
+.navbar-item {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 #navbar{
     display: flex;
     justify-content: flex-end;
     position: fixed;
     top: 0;
     left: 0;
+    height: 50px;
     width: 100%;
+}
+
+#projects {
+    padding-top: 250px;
+    margin-top: -20px;
+    margin-top: 0px;
+    display: block;
+
+}
+
+#one {
+    margin-left: -1070px;
+}
+
+#two {
+    margin-top: -371px;
+}
+
+#three {
+    margin-top: -371px;
+    margin-left: 1070px;
+}
+
+.imgs {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+.project-items {
+    color: white;
+}
+
+#profile-link {
+    color: white;
 }
